@@ -22,3 +22,7 @@ body{background:var(--cream);color:var(--ink)}
 .download-icon{border-color:#abc5f5;background:#f5f8ff}.download-icon svg{stroke:var(--blue)}.device-save{color:var(--blue-dark)}
 dialog::backdrop{background:#061833c9}
 @media(min-width:761px){.dashboard-row .actions .income-action{background:#f5fbf7}}
+
+/* Branded bill controls */
+.edit-bill{border-color:var(--blue);color:var(--blue)}
+.check.done{border-color:var(--blue);background:var(--blue)}
