@@ -6,3 +6,19 @@
 .equation b{min-width:0;text-align:left}
 .download-icon{display:grid!important;width:42px;height:42px;flex:0 0 42px;place-items:center;border:1px solid #9ab8a6;border-radius:12px;background:#edf6ef}.download-icon svg{width:24px;height:24px;fill:none;stroke:var(--green);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.device-save{display:block;margin-top:14px;padding:0;background:transparent;color:var(--green);font-size:11px;letter-spacing:.02em}
 @media(min-width:761px){.spending .section-title{align-items:center}.spending .section-title>.outline{margin-bottom:16px}}
+
+/* L3R Digital Studio brand palette */
+:root{--ink:#0a2346;--muted:#60708a;--cream:#f3f7ff;--paper:#fff;--deep:#071f43;--blue:#1455ee;--blue-dark:#0a36a3;--sage:#e7f1ff;--line:#d9e3f2;--green:#287a5a;--orange:#b85c36;--peach:#fff0e9}
+body{background:var(--cream);color:var(--ink)}
+.topbar p,.pay-plan>p,.section-title p,.buyer p{color:var(--blue)}
+.safe{background:linear-gradient(125deg,var(--deep) 0%,#0b2f6c 58%,var(--blue) 135%);box-shadow:0 12px 32px #08265a2b}
+.safe p{color:#aecaff}.safe small{color:#dce7ff}.safe>button{color:var(--blue-dark)}
+.search span{color:var(--blue)}
+.stats{background:var(--deep);box-shadow:0 8px 24px #08265a18}.stats article:last-child{background:var(--blue)}
+.calendar-card,.month-list,.period,.spend-list{box-shadow:0 5px 18px #0a2c6810}.day.muted{background:#f5f8fd}
+.period header>strong,.safe-line{color:var(--blue)}
+.actions .bill-action,dialog .save{border-color:var(--blue);background:var(--blue);color:#fff}.actions .bill-action{box-shadow:0 6px 16px #1455ee30}
+.buyer{border-color:#cbdcf7;background:linear-gradient(135deg,#eef5ff,#e1ecff)}.buyer>span{color:var(--blue)}.buyer small{color:#536987}
+.download-icon{border-color:#abc5f5;background:#f5f8ff}.download-icon svg{stroke:var(--blue)}.device-save{color:var(--blue-dark)}
+dialog::backdrop{background:#061833c9}
+@media(min-width:761px){.dashboard-row .actions .income-action{background:#f5fbf7}}
