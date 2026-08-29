@@ -26,3 +26,4 @@ dialog::backdrop{background:#061833c9}
 /* Branded bill controls */
 .edit-bill{border-color:var(--blue);color:var(--blue)}
 .check.done{border-color:var(--blue);background:var(--blue)}
+.premium-note{margin:-3px 0 0!important;text-align:center;color:var(--muted)!important;font-size:11px!important}\n
