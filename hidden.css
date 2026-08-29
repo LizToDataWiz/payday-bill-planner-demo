@@ -1,2 +1,3 @@
 [hidden]{display:none!important}
 @media(min-width:761px){.topbar{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}.topbar .actions{position:static;flex:0 0 auto}}
+.list-item:has(.check.done)>div,.list-item:has(.check.done)>strong{text-decoration:line-through;opacity:.55}
