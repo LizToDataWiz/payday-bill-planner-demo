@@ -2,3 +2,4 @@
 @media(min-width:761px){.topbar{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}.topbar .actions{position:static;flex:0 0 auto}}
 .list-item:has(.check.done)>div,.list-item:has(.check.done)>strong{text-decoration:line-through;opacity:.55}
 .month-list .list-item{grid-template-columns:auto minmax(0,1fr) auto auto}.edit-bill{padding:6px 9px;border:1px solid var(--green);border-radius:8px;background:transparent;color:var(--green);font-size:11px;font-weight:800}
+@media(min-width:761px){.topbar .actions button{min-width:126px;padding:14px 18px;border-radius:14px;font-size:15px;font-weight:800}.topbar .actions .expense-action{border-color:#d4754f;background:#fff7f2;color:#9b4728}.topbar .actions .income-action{border-color:var(--green);color:var(--green)}.safe{padding:28px 26px}.safe>button{padding:15px 20px;font-size:15px}}
