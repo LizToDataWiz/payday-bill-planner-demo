@@ -1,1 +1,2 @@
 [hidden]{display:none!important}
+@media(min-width:761px){.topbar{display:flex;align-items:flex-end;justify-content:space-between;gap:24px}.topbar .actions{position:static;flex:0 0 auto}}
