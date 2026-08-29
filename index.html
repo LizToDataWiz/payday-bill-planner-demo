@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="Interactive demo of the Payday Bill Planner.">
+  <title>Payday Bill Planner Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="hidden.css">
+</head>
+<body>
+  <main>
+    <section class="notice"><span>✦</span><div><b>Interactive sample</b><small>Example numbers only. Changes reset when the page is refreshed.</small></div><button id="reset">Reset</button></section>
+    <header class="topbar"><div><p>BIWEEKLY BILL PLANNER</p><h1>Budget Every Payday</h1><span>Know what each pay needs to cover and what is safe to spend.</span></div></header>
+    <section class="safe" id="safe-card"></section>
+    <label class="search"><span>⌕</span><input id="search" placeholder="Search bills by name or category"></label>
+    <section class="stats" id="stats"></section>
+    <nav class="month-nav"><button id="previous" aria-label="Previous month">‹</button><h2 id="month-title"></h2><button id="next" aria-label="Next month">›</button></nav>
+    <section class="calendar-layout"><div class="calendar-card"><div class="weekdays"><span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span></div><div class="days" id="calendar"></div></div><aside class="month-list"><h2>This month</h2><div id="bill-list"></div></aside></section>
+    <section class="pay-plan"><p>BIWEEKLY PLAN</p><h2>What each pay needs to cover</h2><div class="period-grid" id="periods"></div></section>
+    <section class="spending"><div class="section-title"><div><p>EXPENSE TRACKER</p><h2>Recent spending</h2></div><button class="outline" data-entry="expense">＋ Log expense</button></div><div class="spend-list" id="expenses"></div></section>
+    <section class="buyer"><span>⇩</span><div><p>FULL BUYER EDITION</p><h2>Your planner, saved on your device</h2><small>The purchased version includes private device storage, backup and restore, custom categories, recurring schedules, and a quick-start guide.</small></div></section>
+  </main>
+  <div class="actions"><button class="outline" data-entry="expense">▤ Expense</button><button class="outline" data-entry="income">▣ Income</button><button class="bill-action" data-entry="bill">＋ Bill</button></div>
+  <dialog id="entry-dialog"><form id="entry-form"><header><h2 id="dialog-title"></h2><button type="button" id="close" aria-label="Close">×</button></header><p>This demo keeps changes only until you refresh the page.</p><label><span id="name-label">Name</span><input name="name" required></label><label>Amount (CAD)<input name="amount" type="number" min="0.01" step="0.01" required></label><label><span id="date-label">Date</span><input name="date" type="date" value="2026-08-28" required></label><label id="category-row">Category<input name="category"></label><label id="repeat-row">Repeat<select name="repeat"><option>Does not repeat</option><option>Weekly</option><option>Every 2 weeks</option><option>Monthly</option><option>Yearly</option></select></label><button class="save" type="submit">Save sample</button></form></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
