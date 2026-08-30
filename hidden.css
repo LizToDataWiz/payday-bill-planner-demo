@@ -38,3 +38,6 @@ body,button,input,select{font-family:'Nunito',system-ui,-apple-system,sans-serif
 
 /* Square calendar day cells */
 .day{min-height:0;aspect-ratio:1/1}
+
+/* Compact mobile calendar entries */
+@media(max-width:760px){.day{padding:4px 3px}.day>b{font-size:10px;line-height:1}.chip{margin-top:2px;padding:2px;font-size:7px;line-height:1.1}}
