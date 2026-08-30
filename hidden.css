@@ -45,3 +45,7 @@ body,button,input,select{font-family:'Nunito',system-ui,-apple-system,sans-serif
 /* Position dates near the upper-left corner */
 .day{padding:3px}
 @media(max-width:760px){.day{padding:2px}}
+
+/* Flush calendar dates to the upper-left edge */
+.day{padding:0!important}
+.day>b{display:block;position:relative;top:-1px;margin:0;line-height:1}
