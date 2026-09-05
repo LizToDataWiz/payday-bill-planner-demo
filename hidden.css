@@ -27,6 +27,7 @@ dialog::backdrop{background:#061833c9}
 .edit-bill{border-color:var(--blue);color:var(--blue)}
 .check.done{border-color:var(--blue);background:var(--blue)}
 .premium-note{margin:-3px 0 0!important;text-align:center;color:var(--muted)!important;font-size:11px!important}
+.recurring-note{padding:9px 11px;border:1px solid #bed0f5;border-radius:10px;background:#f2f6ff;color:#31527f!important;font-size:11px!important;font-weight:700;line-height:1.35}
 .topbar h1{font-family:'Fredoka','Arial Rounded MT Bold',sans-serif;font-weight:700;letter-spacing:-.035em}
 
 /* Friendly rounded typography system */
