@@ -68,7 +68,7 @@ body,button,input,select{font-family:'Nunito',system-ui,-apple-system,sans-serif
 
 /* Interactive calendar details */
 .day.has-items{position:relative;overflow:visible;cursor:pointer;transition:background .15s ease,box-shadow .15s ease,transform .15s ease}
-.day.has-items:hover,.day.has-items:focus-visible{z-index:8;background:#edf4ff;box-shadow:inset 0 0 0 2px var(--blue);outline:0;transform:translateY(-1px)}
+.day.has-items:hover,.day.has-items:focus-visible{z-index:8;background:#edf4ff;box-shadow:0 8px 18px #0a2c6820;outline:0;transform:translateY(-1px)}
 .more-count{display:block;margin-top:3px;color:var(--blue-dark);font-size:9px;font-weight:900}
 .day-hover{display:none;position:absolute;z-index:20;top:calc(100% + 7px);left:0;width:260px;padding:12px;border:1px solid #b9cdf4;border-radius:13px;background:#fff;box-shadow:0 14px 34px #071f4333;color:var(--ink);text-align:left}
 .day:nth-child(7n) .day-hover,.day:nth-child(7n-1) .day-hover{right:0;left:auto}
