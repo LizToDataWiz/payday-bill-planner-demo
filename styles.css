@@ -3,3 +3,4 @@
 
 /* L3R Digital Studio footer */
 .brandFooter{margin-top:36px;padding:24px 0 26px}.footerRule{height:1px;margin-bottom:20px;background:var(--line)}.brandFooter p{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:5px 11px;margin:0;color:#8a96aa;font-size:13px;letter-spacing:.02em;text-align:center}.brandFooter strong{color:#65738c;font-weight:800}@media(max-width:520px){.brandFooter{margin-top:30px;padding:20px 0 22px}.footerRule{margin-bottom:17px}.brandFooter p{gap:4px 8px;font-size:11px}}
+.buyer{color:inherit;text-decoration:none}.buyer:hover{box-shadow:0 8px 24px #1745bd1c}.buyer:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
